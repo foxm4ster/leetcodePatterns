@@ -1,6 +1,6 @@
 package main
 
-func ContainsDuplicate(nums []int) bool {
+func containsDuplicate(nums []int) bool {
 	seen := make(map[int]struct{}, len(nums))
 
 	for _, n := range nums {
